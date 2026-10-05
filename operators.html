@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Operators</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px;
+        }
+
+        button {
+            padding: 10px 25px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        
+
+        p {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>JavaScript Operators</h1>
+
+    <div class="container">
+
+        <!-- Addition -->
+        <div class="card">
+            <h2>Addition</h2>
+
+            <input type="number" id="add1" placeholder="Enter number 1">
+            <input type="number" id="add2" placeholder="Enter number 2">
+
+            <button onclick="addition()">ADD</button>
+
+            <p id="addResult"></p>
+        </div>
+
+
+        <!-- Subtraction -->
+        <div class="card">
+            <h2>Subtraction</h2>
+
+            <input type="number" id="sub1" placeholder="Enter number 1">
+            <input type="number" id="sub2" placeholder="Enter number 2">
+
+            <button onclick="subtraction()">SUBTRACT</button>
+
+            <p id="subResult"></p>
+        </div>
+
+
+        <!-- Multiplication -->
+        <div class="card">
+            <h2>Multiplication</h2>
+
+            <input type="number" id="mul1" placeholder="Enter number 1">
+            <input type="number" id="mul2" placeholder="Enter number 2">
+
+            <button onclick="multiplication()">MULTIPLY</button>
+
+            <p id="mulResult"></p>
+        </div>
+
+
+        <!-- Division -->
+        <div class="card">
+            <h2>Division</h2>
+
+            <input type="number" id="div1" placeholder="Enter number 1">
+            <input type="number" id="div2" placeholder="Enter number 2">
+
+            <button onclick="division()">DIVIDE</button>
+
+            <p id="divResult"></p>
+        </div>
+
+    </div>
+
+    
+<!-- Percentage -->
+<div class="sandy">
+    <h2>Percentage</h2>
+
+    <input type="number" id="per1" placeholder="Enter number 1">
+    <input type="number" id="per2" placeholder="Enter number 2">
+
+    <button onclick="percentage()">PERCENTAGE</button>
+
+    <p id="perResult"></p>
+</div>
+
+
+
+    <script src="operators.js"></script>
+
+</body>
+</html>
+
